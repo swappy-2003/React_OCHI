@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: primary;
+    src: url("./assets/fonts/FoundersGrotesk-Semibold(1).ttf")
+  }
+  
+  @font-face {
+    font-family: secondary;
+    src: url("./assets/fonts/NeueMontreal-Regular-sorK_qWg.ttf")
+  }
+
+  @keyframes arrow-in {
+    0% {
+      opacity: 0;
+      transform: scale(0.5) rotate(45deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) rotate(45deg);
+    }
+  }
+  
+  .animate-arrow-in {
+    animation: arrow-in 0.5s ease-in-out forwards;
+  }
+  
+  /* styles.css */
+
