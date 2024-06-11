@@ -15,7 +15,7 @@ function landingpage() {
                     initial={{ width: 0 }}
                     animate={{ width: "9vw" }}
                     transition={{ ease: [0.3, 0, 0.17, 1] }}
-                    className="w-[9vw] h-[6vw] relative bg-[url('C:\Users\dubey\occhi\src\assets\content-image01.jpg')] mt-[12px] mr-[8px] rounded-lg"
+                    className="w-[9vw] h-[6vw] relative bg-[url('https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg')] mt-[12px] mr-[8px] rounded-lg"
                   ></motion.div>
                 )}
                 <h1 className="uppercase text-[138.45px]  text-[#212121] leading-[103.833px]  tracking-[-1.3845px] font-['primary']  font-semibold ">
