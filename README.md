@@ -21,10 +21,10 @@ Make sure you have the following installed on your machine:
 
      cd your-repo-name
 
-3.Install dependencies:
+3. ##Install dependencies:
   npm install
   
-4.Run the project:
+4. ##Run the project:
   npm run dev
 
 
@@ -32,15 +32,15 @@ Make sure you have the following installed on your machine:
 This will start the Vite development server. You should see output indicating that the server is running and a local URL (usually http://localhost:3000) where you can view your project.
 
 
-Building for Production
+##Building for Production
 
 To build the project for production, run:
 
-npm run build
+##npm run build
 
    This will create an optimized production build in the dist folder.
 
-Running the Production Build
+##Running the Production Build
 
 To preview the production build locally, you can use a simple static file server. For example, you can use serve:
 
@@ -54,7 +54,7 @@ serve -s dist
 
 This will start a server and provide a URL (usually http://localhost:5000) where you can preview your production build.
 
-Contributing
+##Contributing
 
 If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are welcome.
 License
